@@ -1,0 +1,3 @@
+nz_tools_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: NzToolsBundle:Default:index }
