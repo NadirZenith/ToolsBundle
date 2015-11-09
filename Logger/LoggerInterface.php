@@ -10,5 +10,13 @@ namespace Nz\ToolsBundle\Logger;
 interface LoggerInterface
 {
 
-    public function log();
+    /*
+     * Set logger
+     */
+    /* public function setLogger( GlobalKintLogger $logger); */
+
+    /**
+     * Logger Log
+     */
+    public function log($data);
 }
